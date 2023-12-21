@@ -25,7 +25,8 @@ header nav li a {
     text-decoration: none;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,4 +36,31 @@ header .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+.front-loja {
+    width: 500px;
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px 0;
+    color: #0000008f;
+}
+
+section h2 {
+    margin-bottom: 5px;
+    color: #D9BA23;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+span {
+    margin-bottom: 12px;
+    display: flex;
+    height: 2px;
+    width: 100%;
+    background-color: #D9BA23;
 }
