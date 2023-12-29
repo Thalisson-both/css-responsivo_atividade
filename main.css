@@ -33,13 +33,13 @@ section .container {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1024px;
     width: 100%;
     margin: 0 auto;
 }
 
 .front-loja {
-    width: 500px;
+    width: 350px;
     margin-right: 32px;
 }
 
@@ -61,6 +61,15 @@ span {
     margin-bottom: 12px;
     display: flex;
     height: 2px;
-    width: 96%;
+    width: 100%;
     background-color: #D9BA23;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos {
+    margin-top: 30px;
 }
