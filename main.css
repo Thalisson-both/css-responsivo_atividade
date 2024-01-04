@@ -72,10 +72,42 @@ span {
 
 .produtos {
     margin-top: 30px;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .produtos li {
-    margin-left: 50px;
+    list-style: none;
+}
+
+.produtos li img {
+    padding-bottom: 15px;
+}
+
+.produtos li h3 {
+    font-size: 25px;
+    color: #545454;
+    margin-bottom: 10px;
+}
+
+.produtos li p {
+    margin-bottom: 8px;
+}
+
+.produtos li .price {
+    margin-bottom: 5px;
+}
+
+.produtos li button {
+    width: 100%;
+    height: 35px;
+    background-color: #D9BA23;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
 }
